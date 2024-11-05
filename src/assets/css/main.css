@@ -1,7 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
 	scroll-behavior: smooth;
+}
+
+*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+	font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* font-family: 'Merriweather', serif;
+	font-family: 'Bodoni Moda', serif; */
+	/* font-family: 'Cinzel', serif; */
+	font-family: 'Libre Baskerville', serif !important;
 }
