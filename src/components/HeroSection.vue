@@ -2,10 +2,26 @@
 	<section class="relative h-screen flex items-center justify-center bg-gray-800 text-white">
 		<div class="text-center">
 			<!-- Countdown Timer -->
-			<div class="text-lg md:text-2xl font-light mb-4">
-				<p>{{ formatTime(days) }} : {{ formatTime(hours) }} : {{ formatTime(minutes) }} : {{ formatTime(seconds)
-					}}</p>
-				<p class="text-xs md:text-sm">days hours mins secs</p>
+			<div class="flex justify-center space-x-2 mb-4">
+				<div class="text-center">
+					<p class="text-lg md:text-2xl font-light">{{ formatTime(days) }}</p>
+					<p class="text-xs md:text-sm">days</p>
+				</div>
+				<span class="text-lg md:text-2xl font-light">:</span>
+				<div class="text-center">
+					<p class="text-lg md:text-2xl font-light">{{ formatTime(hours) }}</p>
+					<p class="text-xs md:text-sm">hours</p>
+				</div>
+				<span class="text-lg md:text-2xl font-light">:</span>
+				<div class="text-center">
+					<p class="text-lg md:text-2xl font-light">{{ formatTime(minutes) }}</p>
+					<p class="text-xs md:text-sm">mins</p>
+				</div>
+				<span class="text-lg md:text-2xl font-light">:</span>
+				<div class="text-center">
+					<p class="text-lg md:text-2xl font-light">{{ formatTime(seconds) }}</p>
+					<p class="text-xs md:text-sm">secs</p>
+				</div>
 			</div>
 
 			<h1 class="text-4xl md:text-6xl font-bold">The Mouttet Mile</h1>
