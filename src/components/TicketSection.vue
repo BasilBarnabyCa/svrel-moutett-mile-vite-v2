@@ -4,9 +4,10 @@
 		<h2 class="text-2xl md:text-3xl font-bold text-center py-10 bg-white">Tickets & Hospitality</h2>
 
 		<!-- Ticket Section Container -->
-		<div class="flex flex-col md:flex-row md:justify-between items-start md:items-start mt-10 max-w-7xl mx-auto">
+		<div
+			class="flex flex-col md:flex-row md:justify-between items-start md:items-start mt-10 max-w-7xl mx-auto py-12 px-4">
 			<!-- Ticket List -->
-			<div class="w-full md:w-1/2 space-y-6">
+			<div class="w-full md:w-1/2 space-y-4 md:space-y-6">
 				<div v-for="(ticket, index) in tickets" :key="index" class="border-b-2 border-gray-300 pb-4">
 					<div class="flex justify-between items-center cursor-pointer" @click="toggleExpand(index)">
 						<h3 class="text-lg md:text-xl font-semibold">{{ ticket.title }}</h3>
@@ -17,13 +18,12 @@
 							<p class="mt-2 text-sm md:text-base text-gray-700">
 								{{ ticket.description }}
 							</p>
-							<div class="mt-4 flex space-x-4">
-								<button class="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">Learn
+							<div class="mt-4 flex flex-wrap space-x-4">
+								<button class="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 mb-2">Learn
 									More</button>
 								<button
-									class="border border-red-500 text-red-500 px-4 py-2 rounded-md hover:bg-red-500 hover:text-white">
-									Buy Tickets
-								</button>
+									class="border border-red-500 text-red-500 px-4 py-2 rounded-md hover:bg-red-500 hover:text-white mb-2">Buy
+									Tickets</button>
 							</div>
 						</div>
 					</transition>
@@ -33,7 +33,7 @@
 			<!-- Image or Related Content -->
 			<div class="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8 flex justify-center">
 				<img src="https://placehold.co/600x400" alt="Event Image"
-					class="w-full md:w-3/4 rounded-md shadow-md" />
+					class="w-full md:w-3/4 max-w-sm rounded-md shadow-md object-cover" />
 			</div>
 		</div>
 	</section>
