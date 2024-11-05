@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-gray-100">
+	<section class="bg-gray-100" id="tickets">
 		<!-- Heading -->
 		<h2 class="text-2xl md:text-3xl font-bold text-center py-10 bg-white">Tickets & Hospitality</h2>
 

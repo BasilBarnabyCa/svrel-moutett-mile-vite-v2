@@ -1,5 +1,5 @@
 <template>
-	<section class="relative h-screen flex items-center justify-center bg-gray-800 text-white">
+	<section class="relative h-screen flex items-center justify-center bg-gradient-to-r from-[#42275a] via-[#5b3d6a] to-[#734b6d] text-white">
 		<div class="text-center">
 			<!-- Countdown Timer -->
 			<div class="flex justify-center space-x-2 mb-4">
@@ -37,7 +37,7 @@
 				<i class="fab fa-twitter"></i>
 			</a>
 			<a href="#" class="block text-white hover:text-red-500">
-				<i class="fab fa-linkedin-in"></i>
+				<i class="fab fa-instagram"></i>
 			</a>
 			<a href="#" class="block text-white hover:text-red-500">
 				<i class="fab fa-youtube"></i>

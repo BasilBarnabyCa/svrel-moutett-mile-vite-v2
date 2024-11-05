@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-white py-12">
+	<section class="bg-white py-12" id="history">
 		<div class="max-w-7xl mx-auto px-4 md:px-8">
 			<!-- Heading -->
 			<h2 class="text-2xl md:text-3xl font-bold text-center mb-12">History</h2>
