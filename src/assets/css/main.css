@@ -29,3 +29,19 @@ h6 {
 	/* font-family: 'Cinzel', serif; */
 	font-family: 'Libre Baskerville', serif !important;
 }
+
+.brand-light {
+	color: #E96FBD;
+}
+
+.brand-primary {
+	color: #7b1d59;
+}
+
+.brand-secondary {
+	color: #5c1443;
+}
+
+.brand-tertiary {
+	color: #310621;
+}

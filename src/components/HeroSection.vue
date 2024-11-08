@@ -1,6 +1,16 @@
 <template>
-	<section class="relative h-screen flex items-center justify-center bg-gradient-to-r from-[#42275a] via-[#5b3d6a] to-[#734b6d] text-white">
-		<div class="text-center">
+	<section class="relative h-screen flex items-center justify-center text-white">
+		<!-- Background Video -->
+		<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+			<source src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/public-videos/bg1.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+
+		<!-- Dark Overlay for Contrast -->
+		<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+		<!-- Content -->
+		<div class="relative text-center z-10">
 			<!-- Countdown Timer -->
 			<div class="flex justify-center space-x-2 mb-4">
 				<div class="text-center">
@@ -25,11 +35,12 @@
 			</div>
 
 			<h1 class="text-4xl md:text-6xl font-bold">The Mouttet Mile</h1>
-			<p class="mt-4 text-lg">Racing Excellence at <span class="text-red-500">its Finest</span></p>
+			<h4 class="mt-4 text-lg uppercase">The Richest Purse in the english speaking caribbean</h4> 
+			<h4 class="brand-light font-bold">USD$250,000</h4>
 		</div>
 
 		<!-- Social media icons -->
-		<div class="absolute right-4 top-1/3 space-y-4">
+		<div class="absolute right-4 top-1/3 space-y-4 z-10">
 			<a href="#" class="block text-white hover:text-red-500">
 				<i class="fab fa-facebook-f"></i>
 			</a>
@@ -47,11 +58,13 @@
 </template>
 
 <script>
+// import backgroundVideo from '@/assets/videos/bg1.mp4';
+
 export default {
 	name: 'HeroSection',
 	data() {
 		return {
-			targetDate: new Date('2024-12-31T00:00:00').getTime(), // Replace with your event date
+			targetDate: new Date('2024-12-07T16:00:00').getTime(),
 			days: 0,
 			hours: 0,
 			minutes: 0,
@@ -78,12 +91,12 @@ export default {
 			}, 1000);
 		},
 		formatTime(unit) {
-			return unit.toString().padStart(2, '0'); // Adds leading zero if necessary
+			return unit.toString().padStart(2, '0');
 		},
 	},
 };
 </script>
 
 <style scoped>
-/* Add custom styles if needed */
+/* Additional styles for the overlay and video */
 </style>
