@@ -34,9 +34,9 @@
 				</div>
 			</div>
 
-			<h1 class="text-4xl md:text-6xl font-bold">The Mouttet Mile</h1>
-			<h4 class="mt-4 text-lg uppercase">The Richest Purse in the english speaking caribbean</h4> 
-			<h4 class="brand-light font-bold">USD$250,000</h4>
+			<h1 class="text-4xl md:text-6xl font-think">The Mouttet Mile</h1>
+			<h4 class="mt-4 text-lg uppercase font-thin">The Richest Purse in the english speaking caribbean</h4> 
+			<h4 class="brand-light font-thin">USD$250,000</h4>
 		</div>
 
 		<!-- Social media icons -->
