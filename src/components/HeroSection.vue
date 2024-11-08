@@ -14,12 +14,12 @@
 			<!-- Countdown Timer -->
 			<div class="flex justify-center space-x-2 mb-4">
 				<div class="text-center">
-					<p class="text-lg md:text-2xl font-light">{{ formatTime(days) }}</p>
+					<p class="text-xl md:text-2xl font-light">{{ formatTime(days) }}</p>
 					<p class="text-xs md:text-sm">days</p>
 				</div>
 				<span class="text-lg md:text-2xl font-light">:</span>
 				<div class="text-center">
-					<p class="text-lg md:text-2xl font-light">{{ formatTime(hours) }}</p>
+					<p class="text-xl md:text-2xl font-light">{{ formatTime(hours) }}</p>
 					<p class="text-xs md:text-sm">hours</p>
 				</div>
 				<span class="text-lg md:text-2xl font-light">:</span>
@@ -34,13 +34,14 @@
 				</div>
 			</div>
 
-			<h1 class="text-4xl md:text-6xl font-think">The Mouttet Mile</h1>
-			<h4 class="mt-4 text-lg uppercase font-thin">The Richest Purse in the english speaking caribbean</h4> 
+			<h1 class="text-4xl md:text-6xl font-thin">The Mouttet Mile</h1>
+			<h4 class="mt-4 text-lg uppercase font-thin">The Richest Purse in the english speaking caribbean</h4>
 			<h4 class="brand-light font-thin">USD$250,000</h4>
 		</div>
 
 		<!-- Social media icons -->
-		<div class="absolute right-4 top-1/3 space-y-4 z-10">
+		<!-- Right-aligned icons (only visible on medium screens and above) -->
+		<div class="absolute right-4 top-2/5 space-y-4 z-10 hidden md:block">
 			<a href="#" class="block text-white hover:text-red-500">
 				<i class="fab fa-facebook-f"></i>
 			</a>
@@ -54,6 +55,24 @@
 				<i class="fab fa-youtube"></i>
 			</a>
 		</div>
+
+		<!-- Centered icons (only visible on small screens) -->
+		<div class="absolute w-full bottom-4 flex justify-center space-x-6 md:hidden">
+			<a href="#" class="block text-white hover:text-red-500">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="#" class="block text-white hover:text-red-500">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a href="#" class="block text-white hover:text-red-500">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a href="#" class="block text-white hover:text-red-500">
+				<i class="fab fa-youtube"></i>
+			</a>
+		</div>
+
+
 	</section>
 </template>
 
