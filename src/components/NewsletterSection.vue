@@ -10,11 +10,11 @@
 			</div>
 
 			<!-- Subscription Heading -->
-			<h2 class="text-xl md:text-2xl font-bold mb-4">FOLLOW FOR UPDATES AND EXCLUSIVES</h2>
+			<h2 class="text-xl md:text-2xl font-thin mb-4">FOLLOW FOR UPDATES AND EXCLUSIVES</h2>
 
 			<!-- Email Input Form -->
 			<div class="flex flex-col md:flex-row justify-center items-center">
-				<input type="email" placeholder="email@example.com"
+				<input type="email" placeholder=""
 					class="w-full md:w-1/2 px-4 py-2 mb-4 md:mb-0 md:mr-4 text-gray-800 rounded-md focus:outline-none" />
 				<button class="bg-white text-red-600 px-6 py-2 font-semibold rounded-md hover:bg-gray-200">
 					SUBMIT

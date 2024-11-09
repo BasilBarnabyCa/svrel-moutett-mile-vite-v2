@@ -90,7 +90,7 @@ export default {
 <style scoped>
 /* Scoped style with background image */
 .tickets-bg {
-	background-image: url('../assets/images/gates.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gates.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

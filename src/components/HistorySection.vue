@@ -2,14 +2,14 @@
 	<section class="bg-white py-12" id="history">
 		<div class="max-w-7xl mx-auto px-4 md:px-8">
 			<!-- Heading -->
-			<h2 class="text-2xl md:text-3xl font-bold text-center mb-12">History</h2>
+			<h2 class="text-2xl md:text-3xl font-thin text-center mb-12">History</h2>
 
 			<!-- History Items -->
 			<div class="space-y-12">
 				<!-- First Row -->
 				<div class="flex flex-col md:flex-row items-center">
 					<div class="md:w-1/2 mb-6 md:mb-0">
-						<img src="../assets/images/history/h1.jpg" alt="History Image 1"
+						<img src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/history/h1.jpg" alt="History Image 1"
 							class="w-full rounded-md shadow-md" />
 					</div>
 					<div class="md:w-1/2 md:pl-8">
@@ -33,7 +33,7 @@
 				<!-- Second Row -->
 				<div class="flex flex-col md:flex-row-reverse items-center">
 					<div class="md:w-1/2 mb-6 md:mb-0">
-						<img src="../assets/images/history/h2.jpg" alt="History Image 2"
+						<img src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/history/h2.jpg" alt="History Image 2"
 							class="w-full rounded-md shadow-md" />
 					</div>
 					<div class="md:w-1/2 md:pr-8">
@@ -62,7 +62,7 @@
 				<!-- Third Row -->
 				<div class="flex flex-col md:flex-row items-center">
 					<div class="md:w-1/2 mb-6 md:mb-0">
-						<img src="../assets/images/history/h5.jpg" alt="History Image 1"
+						<img src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/history/h5.JPG" alt="History Image 5"
 							class="w-full rounded-md shadow-md" />
 					</div>
 					<div class="md:w-1/2 md:pl-8">

@@ -2,7 +2,7 @@
 	<section class="bg-gray-100 py-12" id="gallery">
 		<div class="max-w-7xl mx-auto px-4 md:px-8">
 			<!-- Heading -->
-			<h2 class="text-2xl md:text-3xl font-bold text-center mb-0">Gallery</h2>
+			<h2 class="text-2xl md:text-3xl font-thin text-center mb-0">Gallery</h2>
 
 			<!-- Gallery Grid -->
 			<div class="gallery-container">
