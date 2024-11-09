@@ -22,7 +22,7 @@
 			</div>
 
 			<!-- Additional Info -->
-			<p class="mt-4 text-sm">
+			<p class="mt-4 text-sm text-center">
 				Missed something? <a href="#" class="underline hover:text-gray-200">Catch up on past news</a>
 			</p>
 		</div>

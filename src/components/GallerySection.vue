@@ -447,11 +447,11 @@ export default {
 }
 
 .slide-9 {
-	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/9.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/9.JPG');
 }
 
 .slide-10 {
-	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/10.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/10.JPG');
 }
 
 .slide-11 {
