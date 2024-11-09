@@ -8,11 +8,11 @@
 			<div class="space-y-12">
 				<!-- First Row -->
 				<div class="flex flex-col md:flex-row items-center">
-					<div class="md:w-1/2 mb-6 md:mb-0">
+					<div class="md:w-1/2 mb-6 md:mb-0" data-aos="fade-right">
 						<img src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/history/h1.jpg" alt="History Image 1"
 							class="w-full rounded-md shadow-md" />
 					</div>
-					<div class="md:w-1/2 md:pl-8">
+					<div class="md:w-1/2 md:pl-8" data-aos="fade-up">
 						<p class="text-gray-700 mb-3">
 							The prestigious Mouttet Mile, Caymanas Park’s newest marquee event is set for December 7,
 							2024. The Mouttet Mile Invitational, launched in 2022, features a maximum field of 16
@@ -20,7 +20,7 @@
 							race has increased from US$125,000 in its inaugural staging, to US$225,000 – the richest
 							purse in the English-speaking Caribbean.
 						</p>
-						<p class="text-gray-700">
+						<p class="text-gray-700" >
 							Nestled at the peak of the championship quarters’ racing schedule, the ultra-premium race
 							day features an exclusive infield experience with sumptuous food provided by Jamaica’s best
 							caterers, top shelf liquor and luxury décor with our new state of the art digital tote board
@@ -32,11 +32,11 @@
 
 				<!-- Second Row -->
 				<div class="flex flex-col md:flex-row-reverse items-center">
-					<div class="md:w-1/2 mb-6 md:mb-0">
+					<div class="md:w-1/2 mb-6 md:mb-0" data-aos="fade-left">
 						<img src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/history/h2.jpg" alt="History Image 2"
 							class="w-full rounded-md shadow-md" />
 					</div>
-					<div class="md:w-1/2 md:pr-8">
+					<div class="md:w-1/2 md:pr-8" data-aos="fade-up">
 						<p class="text-gray-700 mb-3">
 							Mr. Mouttet shared: “Racing fans across the Caribbean have been longing for the return of
 							racing on a grand scale, and with that in mind, we are proud to have created the Mouttet
@@ -61,11 +61,11 @@
 
 				<!-- Third Row -->
 				<div class="flex flex-col md:flex-row items-center">
-					<div class="md:w-1/2 mb-6 md:mb-0">
+					<div class="md:w-1/2 mb-6 md:mb-0" data-aos="fade-right">
 						<img src="https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/history/h5.JPG" alt="History Image 5"
 							class="w-full rounded-md shadow-md" />
 					</div>
-					<div class="md:w-1/2 md:pl-8">
+					<div class="md:w-1/2 md:pl-8" data-aos="fade-up">
 						<p class="text-gray-700 mb-3">
 							The co-main feature, The Chairman’s Plate will be confined to horses in the Overnight
 							Allowance group for a purse of US$25,000. A third co-main feature - The Bruceontheloose

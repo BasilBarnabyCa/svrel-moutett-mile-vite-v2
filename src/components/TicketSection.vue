@@ -11,7 +11,7 @@
 		<!-- Ticket Section Container -->
 		<div class="flex flex-col md:flex-row md:justify-between items-start md:items-star0 mx-auto brand-gray-bg">
 			<!-- Ticket List -->
-			<div class="w-full h-full md:w-1/2 flex justify-end py-12 px-4">
+			<div class="w-full h-full md:w-1/2 flex justify-end py-12 px-4" data-aos="fade-right">
 				<div class="w-full md:w-3/4 space-y-4 md:space-y-6">
 					<div v-for="(ticket, index) in tickets" :key="index" class="border-b-2 border-gray-300 pb-4">
 						<div class="flex justify-between items-center cursor-pointer" @click="toggleExpand(index)">
@@ -37,7 +37,7 @@
 			</div>
 
 			<!-- Image or Related Content -->
-			<div class="w-full min-h-[300px] md:min-h-[575px] md:w-1/2 mt-8 md:mt-0 md:ml-8 tickets-bg">
+			<div class="w-full min-h-[300px] md:min-h-[575px] md:w-1/2 mt-8 md:mt-0 md:ml-8 tickets-bg" data-aos="fade-up">
 			</div>
 		</div>
 	</section>
