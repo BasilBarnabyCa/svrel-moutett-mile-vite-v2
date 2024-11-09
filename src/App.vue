@@ -3,8 +3,8 @@
 	  <Header />
 	  <HeroSection />
 	  <TicketSection />
-	  <HistorySection />
 	  <GallerySection />
+	  <HistorySection />
 	  <NewsletterSection />
 	  <FooterSection />
 	  <!-- Add other sections here -->

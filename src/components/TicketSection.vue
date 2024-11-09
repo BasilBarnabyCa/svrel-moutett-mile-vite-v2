@@ -9,13 +9,13 @@
         </p>
 
 		<!-- Ticket Section Container -->
-		<div class="flex flex-col md:flex-row md:justify-between items-start md:items-star0 mx-auto">
+		<div class="flex flex-col md:flex-row md:justify-between items-start md:items-star0 mx-auto brand-gray-bg">
 			<!-- Ticket List -->
 			<div class="w-full h-full md:w-1/2 flex justify-end py-12 px-4">
 				<div class="w-full md:w-3/4 space-y-4 md:space-y-6">
 					<div v-for="(ticket, index) in tickets" :key="index" class="border-b-2 border-gray-300 pb-4">
 						<div class="flex justify-between items-center cursor-pointer" @click="toggleExpand(index)">
-							<h3 class="text-lg md:text-xl font-semibold">{{ ticket.title }}</h3>
+							<h3 class="text-lg md:text-xl font-thin">{{ ticket.title }}</h3>
 							<span class="brand-primary font-bold">{{ ticket.isExpanded ? '-' : '+' }}</span>
 						</div>
 						<transition name="expand">

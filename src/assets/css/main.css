@@ -14,6 +14,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background-color: #f3f3f3;
+}
+
 *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
 	font-family: 'Inter', sans-serif;
 }
@@ -28,6 +32,10 @@ h6 {
 	font-family: 'Bodoni Moda', serif; */
 	/* font-family: 'Cinzel', serif; */
 	font-family: 'Libre Baskerville', serif !important;
+}
+
+p {
+	text-align: justify;
 }
 
 .bg-light {
@@ -74,4 +82,8 @@ h6 {
     background: #734b6d;
     color: white;
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.brand-gray-bg {
+	background-color: #ebebeb;
 }
