@@ -10,7 +10,7 @@
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
 				<!-- Main Contact -->
 				<div>
-					<h3 class="font-bold mb-2">caymanasracing.COM</h3>
+					<h3 class="font-bold mb-2">caymanasracing.com</h3>
 					<p>Caymanas Park, Gregory Park, Portmore, St. Catherine</p>
 					<p>(876) 619-1171</p>
 				</div>
