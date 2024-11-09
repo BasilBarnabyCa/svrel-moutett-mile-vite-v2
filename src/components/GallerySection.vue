@@ -327,87 +327,87 @@ export default {
 	}
 
 	.slider .slides:nth-child(3) {
-		left: calc(32% + 150px);
+		left: calc(35% + 150px);
 	}
 
 	.slider .slides:nth-child(4) {
-		left: calc(32% + 350px);
+		left: calc(35% + 350px);
 	}
 
 	.slider .slides:nth-child(5) {
-		left: calc(32% + 550px);
+		left: calc(35% + 550px);
 	}
 
 	.slider .slides:nth-child(6) {
-		left: calc(32% + 750px);
+		left: calc(35% + 750px);
 	}
 
 	.slider .slides:nth-child(7) {
-		left: calc(32% + 950px);
+		left: calc(35% + 950px);
 	}
 
 	.slider .slides:nth-child(8) {
-		left: calc(32% + 1150px);
+		left: calc(35% + 1150px);
 	}
 
 	.slider .slides:nth-child(9) {
-		left: calc(32% + 1350px);
+		left: calc(35% + 1350px);
 	}
 
 	.slider .slides:nth-child(10) {
-		left: calc(32% + 1550px);
+		left: calc(35% + 1550px);
 	}
 
 	.slider .slides:nth-child(11) {
-		left: calc(32% + 1750px);
+		left: calc(35% + 1750px);
 	}
 
 	.slider .slides:nth-child(12) {
-		left: calc(32% + 1950px);
+		left: calc(35% + 1950px);
 	}
 
 	.slider .slides:nth-child(13) {
-		left: calc(32% + 2150px);
+		left: calc(35% + 2150px);
 	}
 
 	.slider .slides:nth-child(14) {
-		left: calc(32% + 2350px);
+		left: calc(35% + 2350px);
 	}
 
 	.slider .slides:nth-child(15) {
-		left: calc(32% + 2550px);
+		left: calc(35% + 2550px);
 	}
 
 	.slider .slides:nth-child(16) {
-		left: calc(32% + 2750px);
+		left: calc(35% + 2750px);
 	}
 
 	.slider .slides:nth-child(17) {
-		left: calc(32% + 2950px);
+		left: calc(35% + 2950px);
 	}
 
 	.slider .slides:nth-child(18) {
-		left: calc(32% + 3150px);
+		left: calc(35% + 3150px);
 	}
 
 	.slider .slides:nth-child(19) {
-		left: calc(32% + 3350px);
+		left: calc(35% + 3350px);
 	}
 
 	.slider .slides:nth-child(20) {
-		left: calc(32% + 3550px);
+		left: calc(35% + 3550px);
 	}
 
 	.slider .slides:nth-child(21) {
-		left: calc(32% + 3750px);
+		left: calc(35% + 3750px);
 	}
 
 	.slider .slides:nth-child(22) {
-		left: calc(32% + 3950px);
+		left: calc(35% + 3950px);
 	}
 
 	.slider .slides:nth-child(23) {
-		left: calc(32% + 4150px);
+		left: calc(35% + 4150px);
 	}
 
 }
