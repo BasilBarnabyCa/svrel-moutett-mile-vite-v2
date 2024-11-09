@@ -413,99 +413,99 @@ export default {
 }
 
 .slide-1 {
-	background-image: url('../assets/images/gallery/1.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/1.jpg');
 }
 
 .slide-2 {
-	background-image: url('../assets/images/gallery/2.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/2.jpg');
 }
 
 .slide-3 {
-	background-image: url('../assets/images/gallery/3.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/3.jpg');
 	background-position: top !important;
 }
 
 .slide-4 {
-	background-image: url('../assets/images/gallery/4.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/4.jpg');
 }
 
 .slide-5 {
-	background-image: url('../assets/images/gallery/5.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/5.jpg');
 }
 
 .slide-6 {
-	background-image: url('../assets/images/gallery/6.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/6.jpg');
 }
 
 .slide-7 {
-	background-image: url('../assets/images/gallery/7.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/7.jpg');
 	background-position: top !important;
 }
 
 .slide-8 {
-	background-image: url('../assets/images/gallery/8.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/8.jpg');
 }
 
 .slide-9 {
-	background-image: url('../assets/images/gallery/9.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/9.jpg');
 }
 
 .slide-10 {
-	background-image: url('../assets/images/gallery/10.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/10.jpg');
 }
 
 .slide-11 {
-	background-image: url('../assets/images/gallery/11.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/11.jpg');
 	background-position: top !important;
 }
 
 .slide-12 {
-	background-image: url('../assets/images/gallery/12.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/12.jpg');
 }
 
 .slide-13 {
-	background-image: url('../assets/images/gallery/13.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/13.jpg');
 }
 
 .slide-14 {
-	background-image: url('../assets/images/gallery/14.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/14.jpg');
 }
 
 .slide-15 {
-	background-image: url('../assets/images/gallery/15.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/15.jpg');
 	background-position: top !important;
 }
 
 .slide-16 {
-	background-image: url('../assets/images/gallery/16.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/16.jpg');
 }
 
 .slide-17 {
-	background-image: url('../assets/images/gallery/17.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/17.jpg');
 }
 
 .slide-18 {
-	background-image: url('../assets/images/gallery/18.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/18.jpg');
 }
 
 .slide-19 {
-	background-image: url('../assets/images/gallery/19.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/19.jpg');
 }
 
 .slide-20 {
-	background-image: url('../assets/images/gallery/20.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/20.jpg');
 }
 
 .slide-21 {
-	background-image: url('../assets/images/gallery/21.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/21.jpg');
 }
 
 .slide-22 {
-	background-image: url('../assets/images/gallery/22.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/22.jpg');
 }
 
 .slide-23 {
-	background-image: url('../assets/images/gallery/23.jpg');
+	background-image: url('https://svrel-mouttet-mile.s3.us-east-1.amazonaws.com/images/gallery/23.jpg');
 }
 
 
