@@ -67,7 +67,17 @@
 					<div class="slides shadow-lg slide-20">
 						<div class="content"></div>
 					</div>
+					<div class="slides shadow-lg slide-21">
+						<div class="content"></div>
+					</div>
+					<div class="slides shadow-lg slide-22">
+						<div class="content"></div>
+					</div>
+					<div class="slides shadow-lg slide-23">
+						<div class="content"></div>
+					</div>
 					
+
 				</div>
 			</div>
 			<div class="button-container">
@@ -236,6 +246,21 @@ export default {
 	background-size: cover;
 }
 
+.slider .slides:nth-child(21) {
+	left: calc(50% + 4920px);
+	background-size: cover;
+}
+
+.slider .slides:nth-child(22) {
+	left: calc(50% + 5180px);
+	background-size: cover;
+}
+
+.slider .slides:nth-child(23) {
+	left: calc(50% + 5440px);
+	background-size: cover;
+}
+
 .button-container {
 	display: flex;
 	width: 120px;
@@ -284,7 +309,7 @@ export default {
 	}
 
 	.slider {
-		inset: 40px 40px 20px 40px;
+		inset: 40px 0px 20px 0px;
 		height: auto;
 	}
 
@@ -293,7 +318,6 @@ export default {
 		height: 100px;
 		top: initial;
 		bottom: -0px;
-		left: -40px;
 	}
 
 	.slider .slides:nth-child(1),
@@ -301,6 +325,91 @@ export default {
 		top: initial;
 		bottom: 0;
 	}
+
+	.slider .slides:nth-child(3) {
+		left: calc(32% + 150px);
+	}
+
+	.slider .slides:nth-child(4) {
+		left: calc(32% + 350px);
+	}
+
+	.slider .slides:nth-child(5) {
+		left: calc(32% + 550px);
+	}
+
+	.slider .slides:nth-child(6) {
+		left: calc(32% + 750px);
+	}
+
+	.slider .slides:nth-child(7) {
+		left: calc(32% + 950px);
+	}
+
+	.slider .slides:nth-child(8) {
+		left: calc(32% + 1150px);
+	}
+
+	.slider .slides:nth-child(9) {
+		left: calc(32% + 1350px);
+	}
+
+	.slider .slides:nth-child(10) {
+		left: calc(32% + 1550px);
+	}
+
+	.slider .slides:nth-child(11) {
+		left: calc(32% + 1750px);
+	}
+
+	.slider .slides:nth-child(12) {
+		left: calc(32% + 1950px);
+	}
+
+	.slider .slides:nth-child(13) {
+		left: calc(32% + 2150px);
+	}
+
+	.slider .slides:nth-child(14) {
+		left: calc(32% + 2350px);
+	}
+
+	.slider .slides:nth-child(15) {
+		left: calc(32% + 2550px);
+	}
+
+	.slider .slides:nth-child(16) {
+		left: calc(32% + 2750px);
+	}
+
+	.slider .slides:nth-child(17) {
+		left: calc(32% + 2950px);
+	}
+
+	.slider .slides:nth-child(18) {
+		left: calc(32% + 3150px);
+	}
+
+	.slider .slides:nth-child(19) {
+		left: calc(32% + 3350px);
+	}
+
+	.slider .slides:nth-child(20) {
+		left: calc(32% + 3550px);
+	}
+
+	.slider .slides:nth-child(21) {
+		left: calc(32% + 3750px);
+	}
+
+	.slider .slides:nth-child(22) {
+		left: calc(32% + 3950px);
+	}
+
+	.slider .slides:nth-child(23) {
+		left: calc(32% + 4150px);
+	}
+
 }
 
 .slide-1 {
@@ -386,4 +495,18 @@ export default {
 .slide-20 {
 	background-image: url('../assets/images/gallery/20.jpg');
 }
+
+.slide-21 {
+	background-image: url('../assets/images/gallery/21.jpg');
+}
+
+.slide-22 {
+	background-image: url('../assets/images/gallery/22.jpg');
+}
+
+.slide-23 {
+	background-image: url('../assets/images/gallery/23.jpg');
+}
+
+
 </style>
