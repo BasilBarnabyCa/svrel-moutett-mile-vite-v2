@@ -9,7 +9,7 @@
 				<!-- First Row -->
 				<div class="flex flex-col md:flex-row items-center">
 					<div class="md:w-1/2 mb-6 md:mb-0">
-						<img src="https://placehold.co/600x400" alt="History Image 1"
+						<img src="../assets/images/history/h1.jpg" alt="History Image 1"
 							class="w-full rounded-md shadow-md" />
 					</div>
 					<div class="md:w-1/2 md:pl-8">
@@ -33,7 +33,7 @@
 				<!-- Second Row -->
 				<div class="flex flex-col md:flex-row-reverse items-center">
 					<div class="md:w-1/2 mb-6 md:mb-0">
-						<img src="https://placehold.co/600x400" alt="History Image 2"
+						<img src="../assets/images/history/h2.jpg" alt="History Image 2"
 							class="w-full rounded-md shadow-md" />
 					</div>
 					<div class="md:w-1/2 md:pr-8">
@@ -62,7 +62,7 @@
 				<!-- Third Row -->
 				<div class="flex flex-col md:flex-row items-center">
 					<div class="md:w-1/2 mb-6 md:mb-0">
-						<img src="https://placehold.co/600x400" alt="History Image 1"
+						<img src="../assets/images/history/h5.jpg" alt="History Image 1"
 							class="w-full rounded-md shadow-md" />
 					</div>
 					<div class="md:w-1/2 md:pl-8">
