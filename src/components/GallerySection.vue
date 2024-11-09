@@ -5,7 +5,7 @@
 			<h2 class="text-2xl md:text-3xl font-thin text-center mb-0">Gallery</h2>
 
 			<!-- Gallery Grid -->
-			<div class="gallery-container">
+			<div class="gallery-container" data-aos="fade-up">
 				<div class="slider">
 					<div class="slides shadow-lg slide-1">
 						<div class="content"></div>
