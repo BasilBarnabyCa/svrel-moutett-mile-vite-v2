@@ -10,9 +10,9 @@
 				<li><a @click.prevent="scrollToSection('home')" class="hover:text-red-500 cursor-pointer">Home</a></li>
 				<li><a @click.prevent="scrollToSection('tickets')" class="hover:text-red-500 cursor-pointer">Tickets</a>
 				</li>
-				<li><a @click.prevent="scrollToSection('history')" class="hover:text-red-500 cursor-pointer">History</a>
-				</li>
 				<li><a @click.prevent="scrollToSection('gallery')" class="hover:text-red-500 cursor-pointer">Gallery</a>
+				</li>
+				<li><a @click.prevent="scrollToSection('history')" class="hover:text-red-500 cursor-pointer">History</a>
 				</li>
 			</ul>
 
