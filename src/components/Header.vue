@@ -3,8 +3,12 @@
 		'bg-white text-black shadow-md': isScrolled,
 		'bg-transparent text-white': !isScrolled,
 	}" class="fixed w-full top-0 z-50 transition-all duration-300">
-		<nav class="max-w-7xl mx-auto p-4 flex justify-between items-center">
-			<div class="font-bold text-2xl">M<sup><span class="text-xs">M</span></sup></div>
+		<nav class="max-w-7xl mx-auto p-3 flex justify-between items-center">
+			<!-- Dynamic Logo -->
+			<div>
+				<img :src="isScrolled ? '/logo-colored.png' : 'logo-white.png'" alt="Dynamic Logo" class="h-16" />
+			</div>
+
 			<!-- Desktop Navigation -->
 			<ul class="hidden md:flex space-x-6">
 				<li><a @click.prevent="scrollToSection('home')" class="hover:text-red-500 cursor-pointer">Home</a></li>
