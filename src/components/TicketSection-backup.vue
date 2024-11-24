@@ -3,7 +3,9 @@
 		<!-- Heading -->
 		<h2 class="text-2xl md:text-3xl font-thin text-center pt-10 bg-light">Tickets & Hospitality</h2>
 		<p class="text-center brand-light text-sm md:text-base pt-5 pb-10 bg-light">
-            <a href="https://caribtix.com/event-details?pg=selectevent&eid=141332&edid=0" target="_blank" class="brand-button text-white px-6 py-2 rounded-md mb-2">Buy now</a>
+            <a href="#explore-options" class="hover:underline">Explore all ticketing options &gt;</a>
+            <span class="mx-2">|</span>
+            <a href="#buy-now" class="hover:underline">Buy Now &gt;</a>
         </p>
 
 		<!-- Ticket Section Container -->
@@ -47,25 +49,30 @@ export default {
 		return {
 			tickets: [
 				{
-					title: 'Infield Club House',
+					title: 'Reserved Seating',
 					description: 'Sit down to a view of the world’s most legendary racetrack and enjoy the sights and sounds of outdoor racing. All reserved seating will be all-inclusive (with food, non-alcohol and alcoholic beverages) for the event and include access to offsite parking at the event center.',
 					isExpanded: false,
 				},
 				{
-					title: 'Reserved Tickets',
+					title: 'Luxury Dining',
 					description: 'Experience fine dining with a perfect view of the race and premium service.',
 					isExpanded: false,
 				},
 				{
-					title: 'North Lounge',
+					title: 'Premium Dining',
 					description: 'Enjoy a combination of luxury and exclusivity with our premium dining options.',
 					isExpanded: false,
 				},
 				{
-					title: 'Ticket Locations',
-					description: 'Enjoy a combination of luxury and exclusivity with our premium dining options.',
+					title: 'Private Suites',
+					description: 'Exclusive access to private suites with personalized service and the best views.',
 					isExpanded: false,
-				}
+				},
+				{
+					title: 'General Admission',
+					description: 'Enjoy the event with general seating that offers great views and atmosphere.',
+					isExpanded: false,
+				},
 			],
 		};
 	},

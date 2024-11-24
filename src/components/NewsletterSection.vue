@@ -3,10 +3,10 @@
 		<div class="max-w-4xl mx-auto px-4 text-center">
 			<!-- Social Media Icons -->
 			<div class="flex justify-center space-x-4 mb-6">
-				<i class="fab fa-facebook-f text-2xl hover:text-gray-200 cursor-pointer"></i>
-				<i class="fab fa-twitter text-2xl hover:text-gray-200 cursor-pointer"></i>
-				<i class="fab fa-instagram text-2xl hover:text-gray-200 cursor-pointer"></i>
-				<i class="fab fa-youtube text-2xl hover:text-gray-200 cursor-pointer"></i>
+				<a href="https://www.facebook.com/caymanasracing/" target="_blank"><i class="fab fa-facebook-f text-2xl hover:text-gray-200 cursor-pointer"></i></a>
+				<a href="https://www.instagram.com/themouttetmile.ja/" target="_blank"><i class="fab fa-instagram text-2xl hover:text-gray-200 cursor-pointer"></i></a>
+				<a href="https://www.youtube.com/channel/UCca6cCyG76xsU-2tQfPPwUw" target="_blank"><i class="fab fa-youtube text-2xl hover:text-gray-200 cursor-pointer"></i></a>
+				<a href="https://www.instagram.com/caymanasracing/" target="_blank"><i class="fab fa-instagram text-2xl hover:text-gray-200 cursor-pointer"></i></a>
 			</div>
 
 			<!-- Subscription Heading -->
