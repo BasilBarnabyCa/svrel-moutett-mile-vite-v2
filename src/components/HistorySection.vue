@@ -76,16 +76,6 @@
 							pulsating action to the already storied and rich Mouttet Mile race day. The race carries a
 							lucrative total purse of J$2.5 million.
 						</p>
-						<p class="text-gray-700 mb-3">
-							The co-main feature, The Chairman’s Plate will be confined to horses in the Overnight
-							Allowance group for a purse of US$25,000. A third co-main feature - The Bruceontheloose
-							Sprint – was added in the 2023 staging of the event. Widely acknowledged as one of the
-							finest racers at Park, Bruceontheloose, without doubt, has pencilled his name not only in
-							the record books, but in the hearts and minds of many race goers. The Bruceontheloose Sprint
-							Trophy is a captivating Grade Two event at 6 ½ furlongs, which will add another dimension of
-							pulsating action to the already storied and rich Mouttet Mile race day. The race carries a
-							lucrative total purse of J$2.5 million.
-						</p>
 						<p class="text-gray-700">
 							In addition, Bruceontheloose was owned during his entire racing career by Paul Mouttet,
 							Herbie Chung, and Paul Hoo (Tres Amigos). He was conditioned by Philip Feanny O.D. in

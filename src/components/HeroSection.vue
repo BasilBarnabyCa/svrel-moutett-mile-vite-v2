@@ -42,33 +42,41 @@
 		<!-- Social media icons -->
 		<!-- Right-aligned icons (only visible on medium screens and above) -->
 		<div class="absolute right-4 top-2/5 space-y-4 z-10 hidden md:block">
-			<a href="#" class="block text-white hover:text-red-500">
+			<a href="https://www.facebook.com/caymanasracing/" class="block text-white hover:text-red-500"
+				target="_blank">
 				<i class="fab fa-facebook-f"></i>
 			</a>
-			<a href="#" class="block text-white hover:text-red-500">
-				<i class="fab fa-twitter"></i>
-			</a>
-			<a href="#" class="block text-white hover:text-red-500">
+			<a href="https://www.instagram.com/themouttetmile.ja/" class="block text-white hover:text-red-500"
+				target="_blank">
 				<i class="fab fa-instagram"></i>
 			</a>
-			<a href="#" class="block text-white hover:text-red-500">
+			<a href="https://www.youtube.com/channel/UCca6cCyG76xsU-2tQfPPwUw"
+				class="block text-white hover:text-red-500" target="_blank">
 				<i class="fab fa-youtube"></i>
+			</a>
+			<a href="https://www.instagram.com/caymanasracing/" class="block text-white hover:text-red-500"
+				target="_blank">
+				<i class="fab fa-instagram"></i>
 			</a>
 		</div>
 
 		<!-- Centered icons (only visible on small screens) -->
 		<div class="absolute w-full bottom-4 flex justify-center space-x-6 md:hidden">
-			<a href="#" class="block text-white hover:text-red-500">
+			<a href="https://www.facebook.com/caymanasracing/" class="block text-white hover:text-red-500"
+				target="_blank">
 				<i class="fab fa-facebook-f"></i>
 			</a>
-			<a href="#" class="block text-white hover:text-red-500">
-				<i class="fab fa-twitter"></i>
-			</a>
-			<a href="#" class="block text-white hover:text-red-500">
+			<a href="https://www.instagram.com/themouttetmile.ja/" class="block text-white hover:text-red-500"
+				target="_blank">
 				<i class="fab fa-instagram"></i>
 			</a>
-			<a href="#" class="block text-white hover:text-red-500">
+			<a href="https://www.youtube.com/channel/UCca6cCyG76xsU-2tQfPPwUw"
+				class="block text-white hover:text-red-500" target="_blank">
 				<i class="fab fa-youtube"></i>
+			</a>
+			<a href="https://www.instagram.com/caymanasracing/" class="block text-white hover:text-red-500"
+				target="_blank">
+				<i class="fab fa-instagram"></i>
 			</a>
 		</div>
 
