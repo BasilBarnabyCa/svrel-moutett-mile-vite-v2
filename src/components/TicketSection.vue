@@ -1,9 +1,9 @@
 <template>
 	<section class="bg-gray-100" id="tickets">
 		<!-- Heading -->
-		<h2 class="text-2xl md:text-3xl font-thin text-center pt-10 bg-light">Tickets & Hospitality</h2>
+		<h2 class="text-2xl md:text-3xl font-thin text-center pt-10 bg-light">Early Bird Tickets Now On Sale</h2>
 		<p class="text-center brand-light text-sm md:text-base pt-5 pb-10 bg-light">
-            <a href="https://caribtix.com/event-details?pg=selectevent&eid=141332&edid=0" target="_blank" class="brand-button text-white px-6 py-2 rounded-md mb-2">Buy now</a>
+            <a href="https://caribtix.com/event-details?pg=selectevent&eid=141332&edid=0" target="_blank" class="brand-button text-white px-6 py-2 rounded-md mb-2">Purchase Now</a>
         </p>
 
 		<!-- Ticket Section Container -->
