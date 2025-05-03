@@ -48,22 +48,22 @@ export default {
 			tickets: [
 				{
 					title: 'Infield Club House',
-					description: 'Sit down to a view of the world’s most legendary racetrack and enjoy the sights and sounds of outdoor racing. All reserved seating will be all-inclusive (with food, non-alcohol and alcoholic beverages) for the event and include access to offsite parking at the event center.',
+					description: 'Step into the most coveted location at the event—our sophisticated infield experience offering luxury and prime finish-line views. The Infield Experience delivers VIP treatment in an intimate setting where every detail adds to the ambiance curated for you and your guests. Your exclusive package includes full-service gourmet dining, premium bar access, and attentive staff dedicated to your complete satisfaction.',
 					isExpanded: false,
 				},
 				{
 					title: 'Reserved Tickets',
-					description: 'Experience fine dining with a perfect view of the race and premium service.',
+					description: 'Get closer to the action! The Reserve Stands offer a direct overview of the final crucial furlongs of races with bar access.',
 					isExpanded: false,
 				},
 				{
 					title: 'North Lounge',
-					description: 'Enjoy a combination of luxury and exclusivity with our premium dining options.',
+					description: 'Enjoy a bird’s eye view of all the action in the North Lounge, aka the ‘Glass House’. Patrons here will enjoy ample seating, air-conditioned comfort and access to a well-stocked bar and hearty Jamaican gastronomic fare.',
 					isExpanded: false,
 				},
 				{
 					title: 'Ticket Locations',
-					description: 'Enjoy a combination of luxury and exclusivity with our premium dining options.',
+					description: ' The Bleachers & Club Stands offer prime rail-side viewing for our avid racing enthusiasts. Our resident DJs keep the vibes going non-stop during the race day and our well stocked bar is available behind the stands.',
 					isExpanded: false,
 				}
 			],

@@ -91,7 +91,7 @@ export default {
 	name: 'HeroSection',
 	data() {
 		return {
-			targetDate: new Date('2024-12-07T16:00:00').getTime(),
+			targetDate: new Date('2025-12-06T16:00:00').getTime(),
 			days: 0,
 			hours: 0,
 			minutes: 0,
