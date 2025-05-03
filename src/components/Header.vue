@@ -1,12 +1,9 @@
 <template>
-	<header id="home" :class="{
-		'bg-white text-black shadow-md': isScrolled,
-		'bg-transparent text-white': !isScrolled,
-	}" class="fixed w-full top-0 z-50 transition-all duration-300">
+	<header id="home" :class="[headerClasses]" class="fixed w-full top-0 z-50 transition-all duration-300">
 		<nav class="max-w-7xl mx-auto p-3 flex justify-between items-center">
 			<!-- Dynamic Logo -->
 			<div>
-				<img :src="isScrolled ? '/logo-colored.png' : 'logo-white.png'" alt="Dynamic Logo" class="h-16" />
+				<img :src="(isScrolled || route.path !== '/') ? '/logo-colored.png' : 'logo-white.png'" alt="Dynamic Logo" class="h-16" />
 			</div>
 
 			<!-- Desktop Navigation -->
@@ -17,6 +14,8 @@
 				<li><a @click.prevent="scrollToSection('gallery')" class="hover:text-red-500 cursor-pointer">Gallery</a>
 				</li>
 				<li><a @click.prevent="scrollToSection('history')" class="hover:text-red-500 cursor-pointer">History</a>
+				</li>
+				<li><router-link to="/look-book" class="hover:text-red-500 cursor-pointer">Look Book</router-link>
 				</li>
 			</ul>
 
@@ -47,46 +46,66 @@
 						class="block hover:text-red-500 cursor-pointer">History</a></li>
 				<li><a @click.prevent="scrollToSection('gallery'); toggleMenu()"
 						class="block hover:text-red-500 cursor-pointer">Gallery</a></li>
+				<li><a @click.prevent="scrollToSection('look-book'); toggleMenu()"
+						class="block hover:text-red-500 cursor-pointer">Look Book</a></li>
+
 			</ul>
 		</div>
 	</header>
 </template>
 
-<script>
-export default {
-	data() {
-		return {
-			isScrolled: false,
-			menuOpen: false,
-		};
-	},
-	mounted() {
-		window.addEventListener('scroll', this.handleScroll);
-	},
-	beforeUnmount() {
-		window.removeEventListener('scroll', this.handleScroll);
-	},
-	methods: {
-		handleScroll() {
-			this.isScrolled = window.scrollY > 50;
-		},
-		scrollToSection(id) {
-			const section = document.getElementById(id);
-			const offset = 64; // Adjust this value to match the height of your header
+<script setup>
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 
-			if (section) {
-				const sectionTop = section.offsetTop - offset;
-				window.scrollTo({
-					top: sectionTop,
-					behavior: 'smooth',
-				});
-			}
-		},
-		toggleMenu() {
-			this.menuOpen = !this.menuOpen;
-		},
-	},
+const isScrolled = ref(false);
+const menuOpen = ref(false);
+const route = useRoute();
+const router = useRouter();
+
+const headerClasses = computed(() => {
+  return (isScrolled.value || route.path !== '/')
+    ? 'bg-white text-black shadow-md'
+    : 'bg-transparent text-white';
+});
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 50;
 };
+
+const scrollToSection = (id) => {
+  const offset = 64;
+  const doScroll = () => {
+    const section = document.getElementById(id);
+    if (section) {
+      const sectionTop = section.offsetTop - offset;
+      window.scrollTo({
+        top: sectionTop,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  if (route.path !== '/') {
+    router.push('/').then(() => {
+      setTimeout(doScroll, 200);
+    });
+  } else {
+    doScroll();
+  }
+};
+
+const toggleMenu = () => {
+  menuOpen.value = !menuOpen.value;
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
 <style scoped>

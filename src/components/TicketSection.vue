@@ -1,9 +1,9 @@
 <template>
 	<section class="bg-gray-100" id="tickets">
 		<!-- Heading -->
-		<h2 class="text-2xl md:text-3xl font-thin text-center pt-10 bg-light">Tickets & Hospitality</h2>
+		<h2 class="text-2xl md:text-3xl font-thin text-center pt-10 bg-light">Early Bird Tickets Now On Sale</h2>
 		<p class="text-center brand-light text-sm md:text-base pt-5 pb-10 bg-light">
-            <a href="https://caribtix.com/event-details?pg=selectevent&eid=141332&edid=0" target="_blank" class="brand-button text-white px-6 py-2 rounded-md mb-2">Buy now</a>
+            <a href="https://caribtix.com/event-details?pg=selectevent&eid=141332&edid=0" target="_blank" class="brand-button text-white px-6 py-2 rounded-md mb-2">Purchase Now</a>
         </p>
 
 		<!-- Ticket Section Container -->
@@ -48,22 +48,22 @@ export default {
 			tickets: [
 				{
 					title: 'Infield Club House',
-					description: 'Sit down to a view of the world’s most legendary racetrack and enjoy the sights and sounds of outdoor racing. All reserved seating will be all-inclusive (with food, non-alcohol and alcoholic beverages) for the event and include access to offsite parking at the event center.',
+					description: 'Step into the most coveted location at the event—our sophisticated infield experience offering luxury and prime finish-line views. The Infield Experience delivers VIP treatment in an intimate setting where every detail adds to the ambiance curated for you and your guests. Your exclusive package includes full-service gourmet dining, premium bar access, and attentive staff dedicated to your complete satisfaction.',
 					isExpanded: false,
 				},
 				{
 					title: 'Reserved Tickets',
-					description: 'Experience fine dining with a perfect view of the race and premium service.',
+					description: 'Get closer to the action! The Reserve Stands offer a direct overview of the final crucial furlongs of races with bar access.',
 					isExpanded: false,
 				},
 				{
 					title: 'North Lounge',
-					description: 'Enjoy a combination of luxury and exclusivity with our premium dining options.',
+					description: 'Enjoy a bird’s eye view of all the action in the North Lounge, aka the ‘Glass House’. Patrons here will enjoy ample seating, air-conditioned comfort and access to a well-stocked bar and hearty Jamaican gastronomic fare.',
 					isExpanded: false,
 				},
 				{
 					title: 'Ticket Locations',
-					description: 'Enjoy a combination of luxury and exclusivity with our premium dining options.',
+					description: ' The Bleachers & Club Stands offer prime rail-side viewing for our avid racing enthusiasts. Our resident DJs keep the vibes going non-stop during the race day and our well stocked bar is available behind the stands.',
 					isExpanded: false,
 				}
 			],
